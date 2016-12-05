@@ -1,6 +1,6 @@
 <?php
 
-require_once('HackerNews.php');
+require_once('../HackerNews.php');
 
 
 //initialize our class

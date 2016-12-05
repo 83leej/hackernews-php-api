@@ -1,13 +1,14 @@
 <?php
 
-require_once('HackerNews.php');
+require_once('../HackerNews.php');
+
 
 
 //initialize our class
 $api = new HackerNews();
 
 //get the list of top 100 stories
-$top_items_full= $api->get_top_stories_ids();
+$top_items_full= $api->get_show_stories_ids();
 
 //slice that down to 5
 $top_items = array_slice($top_items_full, 0, 5);
